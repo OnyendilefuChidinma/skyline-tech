@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+}
+
+.container{
+    width: 80%;
+    padding: 10px;
+    border-radius: 24px;
+    margin: 64px auto;
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.5);
+
+}
+
+table{
+    border-collapse: collapse;
+    width: 90%;
+    margin: 48px auto;
+    padding: 24px 32px;
+}
+
+table, th, td {
+    padding: 24px;
+    font-size: 18px;
+}
+
+caption{
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+th, td{
+    width: 10%;
+    border-bottom: 0.5px solid lightgrey;
+
+}
+
+th{
+    padding: 24px 0;
+    background-color: dodgerblue;
+    color: white;
+    border-bottom: 0.5px solid lightgrey ;
+    font-size: 20px;
+    padding: 20px 24px;
+}
+
+td{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* This is for the grading design */
+.below-70::after {
+    content: "❌ ";
+    font-size: 14px;
+    margin-left: 16px;
+
+}
+
+.above-70::after {
+    content: "✅ ";
+    font-size: 14px;
+    margin-left: 16px;
+   
+}
+
+   
+
