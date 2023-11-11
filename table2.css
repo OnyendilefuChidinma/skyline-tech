@@ -14,7 +14,6 @@ body{
     margin: 64px auto;
     text-align: center;
     background-color:rgba(255, 255, 255, 0.5);
-
 }
 
 table{
@@ -37,37 +36,33 @@ caption{
 
 th, td{
     width: 10%;
-    border-bottom: 0.5px solid lightgrey;
-
+    border: 1px solid lightgrey;
 }
 
 th{
     padding: 24px 0;
-    background-color: dodgerblue;
+    background-color: rgb(59, 46, 248);
     color: white;
     border-bottom: 0.5px solid lightgrey ;
     font-size: 20px;
-    padding: 20px 24px;
+    padding: 24px 24px;
 }
 
 td{
     background-color: rgba(255, 255, 255, 0.5);
 }
-
-/* This is for the grading design */
-.below-70::after {
-    content: "❌ ";
-    font-size: 14px;
-    margin-left: 16px;
-
+   
+input[type=button]{
+    padding: 8px 12px;
+    background-color: rgb(59, 46, 248);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
 }
 
-.above-70::after {
-    content: "✅ ";
-    font-size: 14px;
-    margin-left: 16px;
-   
+tr:nth-child(even){
+    background-color: #ddd;
 }
-
-   
 
