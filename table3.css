@@ -1,0 +1,60 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:azure;
+}
+
+.container{
+    width: 90%;
+    padding:  40px;
+    border-radius: 24px;
+    margin: 64px auto;
+    background-color:rgba(255, 255, 255, 0.5);
+}
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 56px auto;
+    padding: 24px 32px;
+    overflow-x: auto;
+}
+
+table, th, td {
+    padding: 24px;
+    font-size: 18px;
+}
+
+caption{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 16px;
+    
+    width: 60%;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 24px;
+    color: #000;
+    margin: 0 auto 32px;
+}
+
+th{
+    padding: 24px 0;
+    background-color: rgb(59, 46, 248);
+    color: white;
+    font-size: 18px;
+    width: 20% !important;
+}
+
+td{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 20% !important;
+}
+
+tr{
+    border-bottom: 0.5px solid lightgrey ;
+}
